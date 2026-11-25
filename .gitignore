@@ -1,0 +1,13 @@
+# Secrets & Google OAuth files
+token.json
+client_secret*.json
+credentials.json
+.env
+
+# Python / uv artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/

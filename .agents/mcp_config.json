@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "gmail-calendar": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\BIU01\\L06",
+        "run",
+        "gmail-calendar"
+      ],
+      "env": {
+        "GOOGLE_PRIVATE_DIR": "C:\\Users\\Shira\\Documents\\Uni\\שנה 'ג\\בינה מלאכותית יוצרת"
+      }
+    }
+  }
+}
