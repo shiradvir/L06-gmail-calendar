@@ -60,3 +60,15 @@ A Python MCP server built with the official MCP Python SDK (`FastMCP`) and `uv` 
   }
 }
 ```
+
+## Prompts Used Today (2026-11-25)
+
+1. `What do I have in my calendar tomorrow?`
+2. `Write a Gmail draft to myself with the subject "L06 test" and add a calendar event for today, 4 hours from now, called "MCP works".`
+3. `Find a free hour tomorrow between 09:00 and 17:00 and add an event called "Study group" there.`
+4. `Great. Now send the "L06 test" draft.`
+5. `Delete the "Study group" event.`
+6. `Initialize a git repository in this folder. Before the first commit, show me git status and confirm that no token.json, client_secret*.json or .env file will be committed. Then commit with the message "L06 gmail-calendar MCP server".`
+7. `Install Git for Windows using winget (winget install --id Git.Git -e --source winget), refresh PATH, then initialize the git repository, show git status confirming no secret files are included, and commit with the message "L06 gmail-calendar MCP server".`
+8. `Go with option 2: install Git.MinGit via winget, refresh PATH, initialize the git repository in this folder, show me git status confirming no secret files are included, and commit with the message "L06 gmail-calendar MCP server".`
+9. `Create reflection.md with four empty sections: "What did we ask the agent?", "How did we check that the result is correct?", "Which tool did we leave out, and why?", "L05 vs L06: what changed?". Also add to README.md the list of prompts we used today. Then commit.`
